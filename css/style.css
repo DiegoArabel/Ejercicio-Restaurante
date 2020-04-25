@@ -1,0 +1,40 @@
+#encabezado {
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.float-left {
+    float: left;
+}
+
+
+#navegacion {
+    width: 20%;
+}
+
+#contenido {
+    width: 80%;
+}
+
+.navegacion-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navegacion-menu a {
+    text-decoration: none;
+    color: black
+}
+
+.contenedor-cuerpo {
+    margin: 50px;
+}
+
+.listado-menu {
+    list-style-type: none;
+
+}
+
+.img-derecha {
+    float: right
+}
+
