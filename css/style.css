@@ -1,50 +1,58 @@
-.contenedor-cuerpo{
-    width: 960px;
-    box-sizing: border-box;
-}
-    
-#contenedor-menu{
-    display: block;
-    overflow: hidden;
+#app {
+    width: 1280px;
 }
 
-#encabezado{
-    border-bottom: solid 1px grey;
-    padding-bottom: 20px;
+body {
+    font-family: 'Verdana', sans-serif;
 }
 
-#navegacion{
-    width: 30%;
+#encabezado {
+    border-bottom: 1px solid gray;
+    margin: 60px;
+}
+
+.seccion {
+    list-style: none;
+    margin-left: 20px;
     float: left;
+    font-size: 17px;
 }
 
-.navegacion-menu {
+#entradas {
+    float: left;
+    margin-left: 100px;
+    display: block;
+    border-left: 1px solid gray;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+#imagen {
+    float: right;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+#comidas {
     list-style-type: none;
 }
-
-.navegacion-menu a {
-    text-decoration: none;
+.letra {
+    padding-right: 30px;
     font-size: 20px;
-    color:  grey;
-    margin: 1cm;
 }
-    
-#contenido {
-    width: 60%;
+
+#pie-de-pagina {
+    overflow: hidden;
+    background-color:#BDBDBD;;
+    width: 1280px;
+    padding: 30px;
+    font-family: "Verdana", sans-serif;
+    text-align-last: right;
+}
+
+#logo {
     float: left;
-    border-left: solid 1px grey;
-}
-
-.float-left {
-    float: left;
-}
-
-.imgagen {
-    float: right;
-}
-
-.volver-arriba {
-    text-decoration: none;
-    color: black;
-    padding-left: 1cm;
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 7px;
 }
